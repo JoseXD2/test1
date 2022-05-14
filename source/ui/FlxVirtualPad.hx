@@ -18,7 +18,7 @@ import openfl.utils.ByteArray;
  *
  * @author Ka Wing Chin
  */
-@:keep @:bitmap("assets/preload/images/virtual-input.png")
+@:keep @:bitmap("assets/shared/images/virtual-input.png")
 class GraphicVirtualInput extends BitmapData {}
  
 @:file("assets/shared/images/virtual-input.txt")
