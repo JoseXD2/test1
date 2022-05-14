@@ -21,7 +21,7 @@ import openfl.utils.ByteArray;
 @:keep @:bitmap("assets/preload/images/virtual-input.png")
 class GraphicVirtualInput extends BitmapData {}
  
-@:file("assets/shared/virtual-input.txt")
+@:file("assets/shared/images/virtual-input.txt")
 class VirtualInputData extends #if (lime_legacy || nme) ByteArray #else ByteArrayData #end {}
 
 class FlxVirtualPad extends FlxSpriteGroup
