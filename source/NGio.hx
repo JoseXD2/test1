@@ -1,3 +1,4 @@
+#if newgrounds
 package;
 
 import flixel.FlxG;
@@ -165,9 +166,9 @@ class NGio
 
 	function onNGScoresFetch():Void
 	{
-		scoreboardsLoaded = true;
+	 //	scoreboardsLoaded = true;
 
-		ngScoresLoaded.dispatch();
+	 //	ngScoresLoaded.dispatch();
 		/* 
 			for (score in NG.core.scoreBoards.get(8737).scores)
 			{
@@ -198,3 +199,4 @@ class NGio
 		}*/
 	}
 }
+#end
